@@ -1,0 +1,68 @@
+body{
+    height: 200px;
+    background: url(stars1.png), linear-gradient(to left,rgb(9, 9, 43), rgb(74, 70, 52));
+    height: 100vh;
+
+}
+img{
+
+    height: 300px;
+    width: 300px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 80px   rgb(74, 70, 52);
+}
+.sun{
+ 
+    height: 600px;
+
+}
+div .text{
+ 
+    width: 52%;
+    height: 50%;
+    position: relative;
+    top: -310px;
+    left: 47%;
+    font-size: 39px;
+    color: white;
+}
+.containt{
+    position: relative;
+    bottom: 330px;
+    height: 100px;
+    color: white;
+    font-size: 28px;
+}
+button{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500px;
+    letter-spacing: 2px;
+    background: rgb(9, 9, 43);
+    padding: 3.2px 11px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 100px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    position: relative;
+    left: 250px;
+    z-index: 10;
+}
+button a{
+    text-decoration: none;
+    color: white;
+
+}
+button:hover{
+    transform: scale(1.5);
+    background-color:  rgb(74, 70, 52);
+    opacity: 1;
+}
+
+
